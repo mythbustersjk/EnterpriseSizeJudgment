@@ -2,7 +2,6 @@ from openpyxl import load_workbook
 import creat_dict
 import IndustryJudgment
 import DefaultRange
-import SizeJudgmentformula
 import ReturnValue
 
 
