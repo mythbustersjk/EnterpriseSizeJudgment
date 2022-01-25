@@ -3,7 +3,7 @@ def industry_range(industry_name):
                 'gongye': {'num_people_max': 1000, 'num_people_2nd': 300, 'num_people_min': 20,
                            'income_max': 40000, 'income_2nd': 2000, 'income_min': 300},
                 'jzye': {'income_max': 80000, 'income_2nd': 6000, 'income_min': 300,
-                         'total_assets_max': 8000, 'total_asset_2nd': 5000, "total_assets_min": 300},
+                         'total_assets_max': 8000, 'total_assets_2nd': 5000, "total_assets_min": 300},
                 'pfye': {'num_people_max': 200, 'num_people_2nd': 20, 'num_people_min': 5,
                          'income_max': 40000, 'income_2nd': 5000, 'income_min': 1000},
                 'lsye': {'num_people_max': 300, 'num_people_2nd': 50, 'num_people_min': 10,
@@ -27,7 +27,7 @@ def industry_range(industry_name):
                 'wygl': {'num_people_max': 1000, 'num_people_2nd': 300, 'num_people_min': 100,
                          'income_max': 5000, 'income_2nd': 1000, 'income_min': 500},
                 'zlswye': {'num_people_max': 300, 'num_people_2nd': 100, 'num_people_min': 10,
-                           'total_assets_max': 120000, 'total_asset_2nd': 8000, "total_assets_min": 100},
+                           'total_assets_max': 120000, 'total_assets_2nd': 8000, "total_assets_min": 100},
                 'other': {'num_people_max': 300, 'num_people_2nd': 100, 'num_people_min': 10}
                 }
     return ids_dict[industry_name]
