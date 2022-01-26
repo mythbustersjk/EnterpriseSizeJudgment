@@ -7,7 +7,7 @@ import SizeJudgmentformula
 
 
 def range_value(name, single_dict, range_dict):
-    a = ['gongye', 'pfye', 'lsye', 'ysye', 'cangchuye', 'yzye', 'zhusuye', 'cyye', 'xxcsye', 'riye', 'wygl']
+    a = ['gongye', 'pfye', 'lsye', 'ysye', 'cangchuye', 'yzye', 'zhusuye', 'cyye', 'xxcsye', 'rjye', 'wygl']
     b = ['jzye', 'fdcye']
     size = SizeJudgmentformula.Size(single_dict)
     if name == 'yuye':
