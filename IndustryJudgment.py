@@ -24,32 +24,37 @@ def code_judgment(code):
         elif code[0:3] == 'F52':
             industry_name = 'lsye'
     # 运输业
-    elif code[0] in ysy:
-        industry_name = 'ysye'
-    # 仓储业
-    elif code[0:3] == 'G59':
-        industry_name = 'cangchuye'
-    # 邮政业
-    elif code[0:3] == 'G60':
-        industry_name = 'yzye'
-    # 住宿业
-    elif code[0:3] == 'H61':
-        industry_name = 'zhusuye'
-    # 餐饮业
-    elif code[0:3] == 'H62':
-        industry_name = 'cyye'
-    # 信息传输业
-    elif code[0:3] in xx:
-        industry_name = 'xxcsye'
-    # 软件和信息技术服务业
-    elif code[0:3] == 'I65':
-        industry_name = 'rjye'
-    # 房地产开发经营
-    elif code[0:4] == 'K701':
-        industry_name = 'fdcye'
-    # 物业管理
-    elif code[0:4] == 'K702':
-        industry_name = 'wygl'
+    elif code[0] == 'G':
+        if code[0:3] in ysy:
+            industry_name = 'ysye'
+    elif code[0] == 'G':
+        # 仓储业
+        if code[0:3] == 'G59':
+            industry_name = 'cangchuye'
+        # 邮政业
+        elif code[0:3] == 'G60':
+            industry_name = 'yzye'
+    elif code[0] == 'H':
+        # 住宿业
+        if code[0:3] == 'H61':
+            industry_name = 'zhusuye'
+        # 餐饮业
+        elif code[0:3] == 'H62':
+            industry_name = 'cyye'
+    elif code[0] == 'I':
+        # 信息传输业
+        if code[0:3] in xx:
+            industry_name = 'xxcsye'
+        # 软件和信息技术服务业
+        elif code[0:3] == 'I65':
+            industry_name = 'rjye'
+    elif code[0] == 'K':
+        # 房地产开发经营
+        if code[0:4] == 'K701':
+            industry_name = 'fdcye'
+        # 物业管理
+        elif code[0:4] == 'K702':
+            industry_name = 'wygl'
     # 租赁和商务服务业
     elif code[0] == 'L':
         industry_name = 'zlswye'
