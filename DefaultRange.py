@@ -8,7 +8,7 @@ import json
 def industry_range(industry_name):
     try:
         with open('range.json') as range_file:
-            ids_dict =json.load(range_file)
+            ids_dict = json.load(range_file)
         return ids_dict[industry_name]
     except FileNotFoundError:
         ids_dict = {'yuye': {'income_max': 20000, 'income_2nd': 500, 'income_min': 50},
@@ -42,8 +42,8 @@ def industry_range(industry_name):
                                'total_assets_max': 120000, 'total_assets_2nd': 8000, "total_assets_min": 100},
                     'other': {'num_people_max': 300, 'num_people_2nd': 100, 'num_people_min': 10}
                     }
-        with open('range.json', "w") as creat_range_file:
-            json.dump(ids_dict, creat_range_file)
+        with open('range.json', "w") as create_range_file:
+            json.dump(ids_dict, create_range_file)
         return ids_dict[industry_name]
 
 
