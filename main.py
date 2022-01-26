@@ -3,6 +3,7 @@ import creat_dict
 import IndustryJudgment
 import DefaultRange
 import ReturnValue
+import os
 
 
 def main():
@@ -22,6 +23,8 @@ def main():
         ws.cell(row=cell_row_num, column=7, value=group_size)
         # 生成结果文件
         wb.save('result.xlsx')
+    print('已完成企业划型')
+    os.system('pause')
 
 
 if __name__ == '__main__':
