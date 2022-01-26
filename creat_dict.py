@@ -1,3 +1,8 @@
+"""
+以excel首行标题为key生成每行对应的资金列表集合
+"""
+
+
 def dict(rows):
     rows_list = []
     for row in rows:

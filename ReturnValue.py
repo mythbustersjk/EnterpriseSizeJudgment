@@ -1,3 +1,7 @@
+"""
+根据所属行业，调用Value和SizeJudgmentformula，为主程序返回最终企业划型结果
+"""
+
 import Value
 import SizeJudgmentformula
 

@@ -1,3 +1,8 @@
+"""
+判断客户所属行业类型
+"""
+
+
 def code_judgment(code):
     industry_name = ''
     gy = ['B', 'C', "D"]

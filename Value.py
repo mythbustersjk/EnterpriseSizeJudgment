@@ -1,3 +1,8 @@
+"""
+返回各行业判断边界值
+"""
+
+
 def in_single_value(tmp_dict):
     in_max = tmp_dict['income_max']
     in_2nd = tmp_dict['income_2nd']

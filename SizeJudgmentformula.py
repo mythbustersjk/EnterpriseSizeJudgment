@@ -1,13 +1,13 @@
 class Size:
+    """
+    传入模版中income，num_people，total_assets值，判读企业规模
+    """
+
     def __init__(self, single_dict):
         self.income = int(single_dict['income'])
         self.num_people = int(single_dict['num_people'])
         self.total_assets = int(single_dict['total_assets'])
 
-    def l(self):
-        print(self.income)
-        print(self.num_people)
-        print(self.total_assets)
     def single_income_jg(self, _max, _2nd, _min):
         if self.income >= _max:
             group_size = '大型企业'

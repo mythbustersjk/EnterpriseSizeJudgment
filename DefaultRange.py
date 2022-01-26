@@ -1,3 +1,8 @@
+"""
+企业规模划型标准定义函数
+"""
+
+
 def industry_range(industry_name):
     ids_dict = {'yuye': {'income_max': 20000, 'income_2nd': 500, 'income_min': 50},
                 'gongye': {'num_people_max': 1000, 'num_people_2nd': 300, 'num_people_min': 20,
