@@ -32,7 +32,7 @@ def industry_range(industry_name):
                              'income_max': 10000, 'income_2nd': 2000, 'income_min': 100},
                     'xxcsy': {'num_people_max': 2000, 'num_people_2nd': 100, 'num_people_min': 10,
                               'income_max': 100000, 'income_2nd': 1000, 'income_min': 100},
-                    'rjyz': {'num_people_max': 300, 'num_people_2nd': 100, 'num_people_min': 10,
+                    'rjye': {'num_people_max': 300, 'num_people_2nd': 100, 'num_people_min': 10,
                              'income_max': 10000, 'income_2nd': 1000, 'income_min': 50},
                     'fdcye': {'income_max': 200000, 'income_2nd': 1000, 'income_min': 100,
                               'total_assets_max': 10000, 'total_asset_2nd': 5000, "total_assets_min": 2000},
