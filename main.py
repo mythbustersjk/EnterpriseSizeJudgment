@@ -7,6 +7,9 @@ import os
 
 
 def main():
+    filename = input('请输入将生成的文件名（默认为result):')
+    if len(filename) == 0:
+        filename = 'result'
     wb = load_workbook('template.xlsx')
     ws = wb.active
     main_dict_list = creat_dict.dict(ws.rows)
@@ -22,8 +25,8 @@ def main():
         # 将规模写入单元格
         ws.cell(row=cell_row_num, column=7, value=group_size)
         # 生成结果文件
-        wb.save('result.xlsx')
-    print('已完成企业划型')
+        wb.save(f"./result/{filename}.xlsx")
+    print('已完成企业划型', f"结果以保存至./result/{filename}.xlsx")
     os.system('pause')
 
 
