@@ -24,8 +24,12 @@ def main():
         group_size = ReturnValue.range_value(name, single_dict, range_dict)
         # 将规模写入单元格
         ws.cell(row=cell_row_num, column=7, value=group_size)
-        # 生成结果文件
-        wb.save(f"./result/{filename}.xlsx")
+        try:
+            # 生成结果文件
+            wb.save(f"./result/{filename}.xlsx")
+        except FileNotFoundError:
+            os.mkdir('result')
+            wb.save(f"./result/{filename}.xlsx")
     print('已完成企业划型', f"结果以保存至./result/{filename}.xlsx")
     os.system('pause')
 
