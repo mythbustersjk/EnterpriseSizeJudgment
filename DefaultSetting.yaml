@@ -1,0 +1,123 @@
+# 四部委各行业企业划型边界值配置文件
+# 仓储业
+cangchuye:
+  income_2nd: 1000
+  income_max: 30000
+  income_min: 100
+  num_people_2nd: 100
+  num_people_max: 200
+  num_people_min: 20
+# 餐饮业
+cyye:
+  income_2nd: 2000
+  income_max: 10000
+  income_min: 100
+  num_people_2nd: 100
+  num_people_max: 300
+  num_people_min: 10
+# 房地产开发经营业
+fdcye:
+  income_2nd: 1000
+  income_max: 200000
+  income_min: 100
+  total_asset_2nd: 5000
+  total_assets_max: 10000
+  total_assets_min: 2000
+# 工业
+gongye:
+  income_2nd: 2000
+  income_max: 40000
+  income_min: 300
+  num_people_2nd: 300
+  num_people_max: 1000
+  num_people_min: 20
+# 建筑业
+jzye:
+  income_2nd: 6000
+  income_max: 80000
+  income_min: 300
+  total_assets_2nd: 5000
+  total_assets_max: 8000
+  total_assets_min: 300
+# 零售业
+lsye:
+  income_2nd: 500
+  income_max: 20000
+  income_min: 100
+  num_people_2nd: 50
+  num_people_max: 300
+  num_people_min: 10
+# 其他未列明行业
+other:
+  num_people_2nd: 100
+  num_people_max: 300
+  num_people_min: 10
+# 批发业
+pfye:
+  income_2nd: 5000
+  income_max: 40000
+  income_min: 1000
+  num_people_2nd: 20
+  num_people_max: 200
+  num_people_min: 5
+# 软件和信息技术服务业
+rjye:
+  income_2nd: 1000
+  income_max: 10000
+  income_min: 50
+  num_people_2nd: 100
+  num_people_max: 300
+  num_people_min: 10
+# 物业管理
+wygl:
+  income_2nd: 1000
+  income_max: 5000
+  income_min: 500
+  num_people_2nd: 300
+  num_people_max: 1000
+  num_people_min: 100
+# 信息传输业
+xxcsy:
+  income_2nd: 1000
+  income_max: 100000
+  income_min: 100
+  num_people_2nd: 100
+  num_people_max: 2000
+  num_people_min: 10
+# 交通运输业
+ysye:
+  income_2nd: 3000
+  income_max: 30000
+  income_min: 200
+  num_people_2nd: 300
+  num_people_max: 1000
+  num_people_min: 20
+# 农、林、牧、渔业
+yuye:
+  income_2nd: 500
+  income_max: 20000
+  income_min: 50
+# 邮政业
+yzye:
+  income_2nd: 2000
+  income_max: 30000
+  income_min: 100
+  num_people_2nd: 300
+  num_people_max: 1000
+  num_people_min: 20
+# 住宿业
+zhusuye:
+  income_2nd: 2000
+  income_max: 10000
+  income_min: 100
+  num_people_2nd: 100
+  num_people_max: 300
+  num_people_min: 10
+# 租赁和商务服务业
+zlswye:
+  num_people_2nd: 100
+  num_people_max: 300
+  num_people_min: 10
+  total_assets_2nd: 8000
+  total_assets_max: 120000
+  total_assets_min: 100
